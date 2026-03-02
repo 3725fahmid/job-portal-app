@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Jobs from "./pages/Jobs";
 import Applications from "./pages/Applications";
 import AdminApplications from "./pages/AdminApplications";
+import Home from "./pages/Home";
 // import Login from "./pages/Login";
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         {/* <Route path="/login" element={<Login />} /> */}
 
         {/* Default route */}
-        <Route path="*" element={<Jobs />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </Router>
   );
