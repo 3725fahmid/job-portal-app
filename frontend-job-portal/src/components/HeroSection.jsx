@@ -58,10 +58,11 @@ const HeroSection = () => {
                     </div>
 
                     {/* RIGHT IMAGE */}
+                    {/* RIGHT IMAGE */}
                     <div className="relative flex justify-center">
                         <img
-                            src="/hero-image.png"
-                            alt="Hero"
+                            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+                            alt="A kid laughing outdoors"
                             className="w-[80%] md:w-[70%] lg:w-full object-contain"
                         />
 
